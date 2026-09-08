@@ -51,7 +51,7 @@ python scripts/run_experiment.py
 ```
 
 The default profile is
-`config/profiles/deepak.yaml`. The browser runs in headed mode so the flow can
+`config/profiles/user1.yaml`. The browser runs in headed mode so the flow can
 be observed, and the script prints:
 
 - Homepage load time
@@ -63,7 +63,7 @@ Press Enter when prompted to close the browser.
 
 ## Configuration
 
-Edit `config/profiles/deepak.yaml` to change the answers used by the automated
+Edit `config/profiles/user1.yaml` to change the answers used by the automated
 flow. The committed profile contains synthetic example data only; do not store
 real credentials, identity details, or other sensitive personal information in
 the repository.

@@ -6,7 +6,7 @@ from framework.browser import create_browser, create_page
 from portals.my_gov_schemes.flows.main import run_scheme_discovery
 
 
-PROFILE_PATH = "config/profiles/deepak.yaml"
+PROFILE_PATH = "config/profiles/user1.yaml"
 
 
 def load_profile(path):
