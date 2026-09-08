@@ -1,0 +1,12 @@
+name: Example User
+gender: Female
+age: 30
+state: Maharashtra
+location: Rural
+category: General
+disability: false
+minority: true
+student: false
+bpl: false
+family_income: 250000
+parent_income: 300000

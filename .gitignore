@@ -1,0 +1,32 @@
+# Python bytecode and tooling
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Local configuration and editor state
+.env
+.env.*
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Generated experiment output
+results/
+logs/
+screenshots/
+assets/traces/
+
+# Notebook/runtime artifacts
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+*.swp

@@ -1,0 +1,48 @@
+gov-portal-network-study/
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── config/                     
+│   ├── experiments/            
+│   ├── networks/               
+│   └── profiles/               
+│
+├── assets/                     
+│   └── traces/                 
+│
+├── framework/                  
+│   ├── __init__.py
+│   ├── browser.py              
+│   ├── network.py              
+│   ├── metrics.py              
+│   ├── runner.py               
+│   ├── config.py               
+│   └── models.py               
+│
+├── portals/                    
+│   ├── myscheme/               
+│   │   ├── __init__.py
+│   │   ├── portal.py           
+│   │   ├── selectors.py        
+│   │   └── flows/              
+│   │       ├── __init__.py
+│   │       ├── scheme_discovery.py
+│   │       └── scheme_details.py
+│   │
+│   └── future_portal/          
+│
+├── scripts/                    
+│   ├── run_experiment.py       
+│   └── validate_config.py      
+│
+├── results/                    
+│   ├── raw/                    
+│   └── processed/              
+│
+├── analysis/                   
+│   ├── aggregate_metrics.py    
+│   └── visualizations.ipynb    
+│
+├── screenshots/                
+└── logs/
