@@ -1,12 +1,12 @@
 name: Example User
-gender: Female
-age: 30
+gender: Male
+age: 21
 state: Maharashtra
 location: Rural
-category: General
+category: Scheduled Caste (SC)
 disability: false
 minority: true
-student: false
+student: true
 bpl: false
 family_income: 250000
 parent_income: 300000

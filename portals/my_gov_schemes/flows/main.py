@@ -48,14 +48,14 @@ def run_scheme_discovery(page, profile):
     gender_option.click()
 
     # Age
-    page.get_by_role("combobox").nth(0).select_option(
+    page.get_by_role("combobox").select_option(
         str(profile["age"])
     )
 
     page.get_by_role("button", name="Next").click()
 
     # State
-    page.get_by_role("combobox").nth(1).select_option(
+    page.get_by_role("combobox").select_option(
         profile["state"]
     )
 
